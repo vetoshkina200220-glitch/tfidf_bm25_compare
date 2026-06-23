@@ -1,0 +1,143 @@
+# ─────────────────────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ─────────────────────────────────────────────────────────────
+# Virtual environments
+# ─────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ─────────────────────────────────────────────────────────────
+# Jupyter Notebook
+# ─────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
+profile_default/
+ipython_config.py
+.jupyter/
+
+# ─────────────────────────────────────────────────────────────
+# Data — НЕ коммитим датасеты, индексы, кэши
+# ─────────────────────────────────────────────────────────────
+datasets/
+data/
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+# исключение: оставляем конфиги/служебные json
+!requirements*.json
+
+# ─────────────────────────────────────────────────────────────
+# Models / weights / artifacts
+# ─────────────────────────────────────────────────────────────
+*.pt
+*.pth
+*.onnx
+*.bin
+*.ckpt
+*.safetensors
+*.joblib
+*.model
+checkpoints/
+checkpoint/
+mlruns/
+wandb/
+.cache/
+
+# ─────────────────────────────────────────────────────────────
+# Environment / secrets
+# ─────────────────────────────────────────────────────────────
+.env
+.env.*
+*.local
+secrets.*
+
+# ─────────────────────────────────────────────────────────────
+# Testing / coverage / type checkers
+# ─────────────────────────────────────────────────────────────
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+
+# ─────────────────────────────────────────────────────────────
+# IDE / editors
+# ─────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ─────────────────────────────────────────────────────────────
+# OS-specific
+# ─────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────────────────────────
+# Logs / temp
+# ─────────────────────────────────────────────────────────────
+*.log
+*.tmp
+tmp/
+temp/
